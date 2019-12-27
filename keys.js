@@ -1,15 +1,18 @@
 module.exports = {
-  up: '\u001b[A',
-  down: '\u001b[B',
-  left: '\u001b[D',
-  right: '\u001b[C',
-  return: '\r',
-  linefeed: '\n',
-  tab: '\t',
+  up: "\u001b[A",
+  down: "\u001b[B",
+  left: "\u001b[D",
+  right: "\u001b[C",
+  return: "\r",
+  linefeed: "\n",
+  tab: "\t",
   backspace: String.fromCharCode(127),
   ctrl: {
-    c: '\u0003'
-  }
+    c: "\u0003",
+    z: "\u001a"
+  },
+  end: "\u001b[F",
+  home: "\u001b[H"
 };
 
 /*
